@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/home/wyli/Repos/STEMcademy/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/home/wyli/Repos/STEMcademy/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/home/wyli/Repos/STEMcademy"
+      ],
+      "~/*": [
+        "/home/wyli/Repos/STEMcademy/*"
+      ],
+      "@": [
+        "/home/wyli/Repos/STEMcademy"
+      ],
+      "@/*": [
+        "/home/wyli/Repos/STEMcademy/*"
+      ],
+      "~~": [
+        "/home/wyli/Repos/STEMcademy"
+      ],
+      "~~/*": [
+        "/home/wyli/Repos/STEMcademy/*"
+      ],
+      "@@": [
+        "/home/wyli/Repos/STEMcademy"
+      ],
+      "@@/*": [
+        "/home/wyli/Repos/STEMcademy/*"
+      ],
+      "assets": [
+        "/home/wyli/Repos/STEMcademy/assets"
+      ],
+      "public": [
+        "/home/wyli/Repos/STEMcademy/public"
+      ],
+      "public/*": [
+        "/home/wyli/Repos/STEMcademy/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/home/wyli/Repos/STEMcademy/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
